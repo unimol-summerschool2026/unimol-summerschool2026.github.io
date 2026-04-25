@@ -335,7 +335,7 @@ a.theme-link:hover {
 
 /* Header: grigio chiaro neutro pulito quando si e in cima alla pagina */
 .header {
-    background: #f3f4f6 !important;
+    background: #d1d5db !important;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
