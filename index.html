@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>DevConf - Bootstrap 5 Template For Tech Conference or Events</title>
+	<title>BITES 2026 — Summer School on Biosciences, Informatics, Tourism, Engineering and Sustainability</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Bootstrap 5 Tech Conference Template">
+	<meta name="description" content="BITES 2026 — 1st International Summer School on Biosciences, Informatics, Tourism, Engineering and Sustainability. August 25-28, 2026, Termoli, Italy. Organized by the Department of Biosciences and Territory, University of Molise.">
 	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
 	<link rel="shortcut icon" href="favicon.ico"> 
 	
@@ -17,146 +17,256 @@
 	<!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
 
-	<!-- Theme CSS -->  
+	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 
+	<!-- GLightbox CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+	<!-- AOS (Animate On Scroll) -->
+	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 </head> 
 
-<body>    
+<body>
 	<header id="header" class="header fixed-top">	    
-		<div class="branding">
-			<div class="container-fluid">
-				<nav class="main-nav navbar navbar-expand-lg">
-					<div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logo-white.svg" alt="logo"></a></div>    
-					
-					<div class="navbar-btn order-lg-2"><a class="btn btn-secondary" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Tickets</a></div>
-					
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					
-					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
-						<ul class="nav navbar-nav">
-							
-							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>                                              
-							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Tickets</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li>
-						</ul><!--//nav-->
-					</div><!--//navabr-collapse-->
+    <div class="branding">
+        <div class="container-fluid">
+            <nav class="main-nav navbar navbar-expand-lg">
+                <div class="site-logo"><a class="scrollto" href="#hero-block"><img class="logo-icon" src="assets/images/logos/unimol-logo.png" alt="BITES 2026 - Summer School"></a></div>    
+                
+                <!--<div class="navbar-btn order-lg-2"><a class="btn btn-secondary scrollto" href="#registration-section" id="register-btn">Register</a></div>-->
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#termoli-section">Venue</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Travel &amp; Stay</a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#team-section">Organizing Team</a></li>
+                    </ul>
+                </div>
 
-				</nav><!--//main-nav-->
-				
-			</div><!--//container-->
-		</div><!--//branding-->
-	</header><!--//header-->
+            </nav>
+            
+        </div>
+    </div>
+	</header>
 	
 	<div id="hero-block" class="hero-block">
 		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item-1 carousel-item active">
-				</div>
-				<div class="carousel-item-2 carousel-item">
-				</div>
-				<div class="carousel-item-3 carousel-item">
+			<div id="hero-block" class="hero-block">
+			<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item-1 carousel-item active">
+					</div>
+					<div class="carousel-item-2 carousel-item">
+					</div>
+					<div class="carousel-item-3 carousel-item">
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="hero-block-mask"></div>
-		<div class="container">
-			<div class="hero-text-block">
-				<h1 class="hero-heading mb-2">DevConf 2028</h1>
-				<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>12 - 15 Oct <i class="fas fa-map-marker-alt mx-2"></i>New York, USA</div>
-				<div class="hero-intro mb-4">The #1 Bootstrap Template for <br>Tech Conferences and Events.</div>
-				<div class="hero-cta"><a class="btn btn-primary btn-lg" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Tickets</a></div>
-				
-			</div><!--//hero-text-block-->
-		</div><!--//container-->
+			<div class="hero-block-mask"></div>
+			<div class="container">
+				<div class="hero-text-block">
+					<h1 class="hero-heading mb-2">BITES 2026</h1>
+					<div class="hero-subheading mb-3">1st International Summer School on Biosciences, Informatics, Tourism, Engineering and Sustainability</div>
+					<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>August 25 - 28, 2026 <a class="hero-meta-link" href="https://www.google.com/maps/search/?api=1&amp;query=Universit%C3%A0+degli+Studi+del+Molise+Termoli" target="_blank" rel="noopener" aria-label="Open Termoli location in Google Maps"><i class="fas fa-map-marker-alt mx-2"></i>Termoli, Italy</a></div>
+					<div class="hero-intro mb-4">A four-day intensive program organized by the<br>Department of Biosciences and Territory, University of Molise.</div>
+					<!--<div class="hero-cta"><a class="btn btn-primary btn-lg register-link" href="#" target="_blank">Register Now</a></div>-->
+					
+				</div>
+			</div>
 
-	</div><!--//hero-block-->
+		</div>
 	
-	<div class="stats-block theme-bg-primary text-white py-4 text-center">
+	<!--<div class="stats-block theme-bg-primary text-white py-4 text-center">
 		<div class="container">
 			<div class="row">
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<div class="number">2000+</div>
 						<div class="unit">Attendees</div>
-					</div><!--//item-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<div class="number">3</div>
 						<div class="unit">Days</div>
-					</div><!--//item-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<div class="number">60+</div>
 						<div class="unit">Talks</div>
-					</div><!--//item-->
-				</div><!--//col-->
+					</div>
+				</div>
 				<div class="col-6 col-md-3">
 					<div class="item">
 						<div class="number">10+</div>
 						<div class="unit">Workshops</div>
-					</div><!--//item-->
-				</div><!--//col-->
+					</div>
+				</div><
 			</div>
-		</div><!--//container-->
-	</div><!--//stats-block-->
+		</div>
+	</div>stats-block-->
 
 	<section id="about-section" class="about-section section theme-bg-light">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">About DevConf</h3>
-			<div class="section-intro single-col-max mx-auto mb-4">Briefly introduce your conference or event here. You should convince people why they should attend with a list of benefits. <strong>Are you a conference organizer? Want to source developer t-shirts as part of your conference package?</strong> Check out our programming tees at <a href="https://made4dev.com/" target="_blank">made4dev.com</a> - developers love them! Want to get a bulk discount or just want to use one of the t-shirt designs? Please email <a href="mailto:hello@made4dev.com">hello@made4dev.com</a> and we can discuss.</div>
-			<div class="benefits-list text-center mb-3">
+			<h3 class="section-heading text-center mb-3" data-aos="fade-up">About BITES 2026</h3>
+			<div class="section-intro single-col-max mx-auto mb-4" data-aos="fade-up" data-aos-delay="100">
+				<p>BITES 2026 is the first edition of an international summer school dedicated to the convergence of <strong>Biosciences, Informatics, Tourism, Engineering and Sustainability</strong>. Hosted by the Department of Biosciences and Territory of the University of Molise, the program brings together internationally recognized lecturers and a community of <strong>PhD students and early-career researchers</strong> for four intensive days of lectures, hands-on workshops and field activities.</p>
+				<p class="mb-0">Set in the unique landscape of <strong>Termoli</strong> — an ancient seaside town on the Adriatic coast — BITES 2026 offers a rare opportunity to explore how life sciences, digital technologies, sustainability and territorial knowledge intersect to address the challenges of our time.</p>
+			</div>
+			<div class="benefits-list text-center mb-3" data-aos="fade-up" data-aos-delay="200">
 				<h4 class="text-center mb-4">Why Join Us</h4>
 				<ul class="list-unstyled text-start d-inline-block">
-					<li><i class="fas fa-check-circle me-2"></i>Unique chance to lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>Learn from the best in the industry</li>
-					<li><i class="fas fa-check-circle me-2"></i>Discover the best tools and practices</li>
-					<li><i class="fas fa-check-circle me-2"></i>Meet developers from all over the world</li>
-					<li><i class="fas fa-check-circle me-2"></i>Grow your network</li>
-					<li><i class="fas fa-check-circle me-2"></i>Practical workshops to lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>After-party lorem ipsum dolor</li>
-					<li><i class="fas fa-check-circle me-2"></i>Free <a href="https://made4dev.com">developer t-shirts</a> and swag</li>
+					<li><i class="fas fa-check-circle me-2"></i>Learn from international experts across five interdisciplinary fields</li>
+					<li><i class="fas fa-check-circle me-2"></i>Engage in hands-on workshops and field-based activities</li>
+					<li><i class="fas fa-check-circle me-2"></i>Earn academic credits (ECTS / CFU) recognized by the University of Molise</li>
+					<li><i class="fas fa-check-circle me-2"></i>Connect with researchers and PhD students from across Europe and beyond</li>
+					<li><i class="fas fa-check-circle me-2"></i>Experience the cultural and natural heritage of Termoli and Molise</li>
+					<li><i class="fas fa-check-circle me-2"></i>Foster cross-disciplinary collaborations and future research partnerships</li>
 				</ul>
 			</div><!--//benefits-list-->
-			<div class="event-countdown text-center mb-3">		   
+			<div class="event-countdown text-center mb-3" data-aos="zoom-in" data-aos-delay="300">
 				<h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
 				<div id="countdown-box" class="countdown-box"></div>
 			</div><!--//event-countdown-->
-			<div class="about-cta text-center mb-5"><a class="btn btn-secondary btn-lg  mb-5" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Your Ticket Today</a></div>
+			<div class="about-cta text-center mb-5" data-aos="fade-up" data-aos-delay="400"><a class="btn btn-secondary btn-lg mb-5 scrollto" href="#registration-section">Apply Now</a></div>
 		</div><!--//container-->
 
-		<div class="media-block theme-bg-primary py-5">
-			<div class="container">
-				<h4 class="text-white text-center mb-3">Previously</h4>
-				<div class="section-intro text-center single-col-max mx-auto text-white mb-5">Conference videos and images from previous years is a great way to show people what to expect at the conference and entice them to join. You can host more media content on YouTube, Flickr or Instagram and link out to them in this section.</div>
-				<div class="row gx-md-5">
-					<div class="col-12 col-md-6 mb-3">
-						<div class="ratio ratio-16x9">
-							
-							<iframe src="https://www.youtube.com/embed/stjniziaxy4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div><!--//embed-responsive -->
-					</div><!--//col-->
-					<div class="col-12 col-md-6 mb-md-5">
-						<div class="ratio ratio-16x9">
-							<iframe src="https://www.youtube.com/embed/NPYqnGNO_zw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div><!--//embed-responsive -->
-					</div><!--//col-->
-				</div><!--//row-->
-			</div><!--//container-->
-		</div><!--//media-block-->
 	</section><!--//about-section-->
+
+	<section id="termoli-section" class="termoli-section section">
+		<div class="container-fluid p-0" data-aos="fade-up">
+			<div class="text-center mb-5 px-3">
+				<h3 class="section-heading">Termoli</h3>
+				<div class="section-intro single-col-max mx-auto">The pearl of the Adriatic Sea</div>
+			</div>
+
+			<!-- Riga 1: foto Termoli (sx) + venue-info con bg porto + play btn (dx) -->
+			<div class="row g-0">
+				<div class="col-lg-6">
+					<a href="assets/images/termoli/alba-1.jpeg" class="glightbox" data-gallery="termoli-main">
+						<img src="assets/images/termoli/alba-1.jpeg" alt="Termoli at sunrise" class="img-fluid w-100">
+					</a>
+				</div>
+				<div class="col-lg-6 venue-info">
+					<div class="row justify-content-center">
+						<div class="col-11 col-lg-8 position-relative">
+							<h3>Termoli</h3>
+							<p>Termoli is a coastal town located in the Molise region, Italy. Famous for its characteristic ancient village, Termoli offers picturesque narrow streets and breathtaking views over the Adriatic Sea.</p>
+						</div>
+					</div>
+					<a href="https://www.youtube.com/watch?v=AgF3P_I12MA" class="glightbox play-btn" aria-label="Watch Termoli video"></a>
+				</div>
+			</div>
+
+			<!-- Riga 2: testo UniMol (sx) + bg image Sede-Termoli (dx) -->
+			<div class="row g-0">
+				<div class="col-lg-6 venue-info-sede">
+					<div class="row justify-content-center">
+						<div class="col-11 col-lg-8 position-relative">
+							<h3>Università degli Studi del Molise</h3>
+							<p>The Termoli campus of the University of Molise is renowned for its degree programs and research centers in tourism sciences and computer science. The summer school will be hosted in this modern facility, located steps away from the Adriatic coast.</p>
+							<a class="venue-maps-link" href="https://www.google.com/maps/search/?api=1&amp;query=Universit%C3%A0+degli+Studi+del+Molise+Termoli" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt me-2"></i>View on Google Maps</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 venue-info-sede-img">
+					<a href="assets/images/termoli/Sede-Termoli.jpg" class="glightbox" data-gallery="termoli-sede">
+						<img src="assets/images/termoli/Sede-Termoli.jpg" alt="University of Molise - Termoli campus" class="w-100 h-100">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Galleria edge-to-edge: prima riga di 4 -->
+		<div class="container-fluid venue-gallery-container p-0" data-aos="fade-up" data-aos-delay="100">
+			<div class="row g-0">
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/alba-spiaggia.jpeg" class="glightbox" data-gallery="termoli-gallery">
+							<img src="assets/images/termoli/alba-spiaggia.jpeg" alt="" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/castello.jpg" class="glightbox" data-gallery="termoli-gallery" data-title="Swabian Castle - 13th-century medieval fortress">
+							<img src="assets/images/termoli/castello.jpg" alt="Swabian Castle" class="img-fluid">
+						</a>
+						<div class="caption">Swabian Castle</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/spiaggia.jpeg" class="glightbox" data-gallery="termoli-gallery">
+							<img src="assets/images/termoli/spiaggia.jpeg" alt="" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/cattedrale.jpg" class="glightbox" data-gallery="termoli-gallery" data-title="Cathedral of Santa Maria della Purificazione - 12th-13th century">
+							<img src="assets/images/termoli/cattedrale.jpg" alt="Cathedral" class="img-fluid">
+						</a>
+						<div class="caption">Cathedral</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Galleria edge-to-edge: seconda riga di 4 -->
+		<div class="container-fluid venue-gallery-container p-0" data-aos="fade-up" data-aos-delay="100">
+			<div class="row g-0">
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/borgo.jpg" class="glightbox" data-gallery="termoli-gallery" data-title="The Old Town of Termoli - a fortified citadel on a promontory overlooking the sea">
+							<img src="assets/images/termoli/borgo.jpg" alt="Old Town" class="img-fluid">
+						</a>
+						<div class="caption">Old Town</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/tramonto-porto.jpeg" class="glightbox" data-gallery="termoli-gallery">
+							<img src="assets/images/termoli/tramonto-porto.jpeg" alt="" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/vicolo.jpg" class="glightbox" data-gallery="termoli-gallery" data-title="A Rejecelle - the narrowest alley in Europe (34 cm wide)">
+							<img src="assets/images/termoli/vicolo.jpg" alt="A Rejecelle" class="img-fluid">
+						</a>
+						<div class="caption">A Rejecelle</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-6">
+					<div class="venue-gallery">
+						<a href="assets/images/termoli/tramonto.jpeg" class="glightbox" data-gallery="termoli-gallery">
+							<img src="assets/images/termoli/tramonto.jpeg" alt="" class="img-fluid">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--//termoli-section-->
 	
 	<section id="speakers-section" class="speakers-section section">
 		<div class="container">
 			<h3 class="section-heading text-center mb-3">Speakers</h3>
+			<p class="text-center text-muted py-5 mb-0" style="font-size:1.25rem;" data-aos="fade-up">Speakers will be announced soon. Stay tuned!</p>
+
+			<!-- Contenuto originale del template (intro + 8 card speaker + CTA) nascosto via attributo HTML `hidden`. Per riattivarlo: rimuovi il tag div di apertura "div hidden" qui sotto e il corrispondente tag div di chiusura piu in basso (cerca il marker END_HIDDEN). -->
+			<div hidden>
 			<div class="section-intro text-center single-col-max mx-auto mb-5">List your featured speakers here. You can provide more info about each speaker in the relevant modal windows. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 			<div class="row">
 				<div class="col-6 col-lg-3 mb-4">
@@ -321,8 +431,9 @@
 				</div><!--//col-->
 			</div><!--//row-->
 			<div class="speakers-cta text-center py-3"><a class="btn btn-primary btn-lg" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" target="_blank">Get Tickets</a></div>
+			</div><!-- END_HIDDEN -->
 		</div><!--//container-->
-		
+
 	</section><!--//speakers-section-->
 	
 	<div class="container">
@@ -332,25 +443,35 @@
 	<section id="schedule-section" class="schedule-section section">
 		<div class="container">
 			<h3 class="section-heading text-center mb-5">Schedule</h3>
-			
-			<!-- Nav tabs -->
+
+			<p class="text-center text-muted py-5 mb-0" style="font-size:1.25rem;" data-aos="fade-up">The schedule will be announced soon. Stay tuned!</p>
+
+			<!-- Contenuto originale del template (4 tab Day 1-4 + agenda + CTA) nascosto via attributo HTML hidden. Per riattivarlo: rimuovi il tag div di apertura "div hidden" qui sotto e il corrispondente tag div di chiusura piu in basso (cerca il marker END_HIDDEN_SCHEDULE). -->
+			<div hidden>
+			<!-- Nav tabs (4 giorni: Aug 25-28, 2026) -->
 			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
 				<li class="nav-item me-2">
 					<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
 						<span class="heading">Day 1</span>
-						<span class="meta">(Wed 12, Oct)</span>
+						<span class="meta">(Tue 25, Aug)</span>
 					</a>
 				</li>
 				<li class="nav-item me-2">
 					<a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
 						<span class="heading">Day 2</span>
-						<span class="meta">(Thu 13, Oct)</span>
+						<span class="meta">(Wed 26, Aug)</span>
+					</a>
+				</li>
+				<li class="nav-item me-2">
+					<a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
+						<span class="heading">Day 3</span>
+						<span class="meta">(Thu 27, Aug)</span>
 					</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
-						<span class="heading">Day 3</span>
-						<span class="meta">(Fri 14, Oct)</span>
+					<a class="nav-link" id="tab-4" data-bs-toggle="tab" href="#tab-4-content" role="tab" aria-controls="tab-4-content" aria-selected="false">
+						<span class="heading">Day 4</span>
+						<span class="meta">(Fri 28, Aug)</span>
 					</a>
 				</li>
 			</ul>
@@ -508,149 +629,219 @@
 				<div class="tab-pane no-timeline" id="tab-3-content" role="tabpanel" aria-labelledby="tab-3">
 					<h4 class="text-center py-5 text-muted">Day 3 Agenda Coming Soon...</h4>
 				</div><!--//tab-3-content-->
+				<div class="tab-pane no-timeline" id="tab-4-content" role="tabpanel" aria-labelledby="tab-4">
+					<h4 class="text-center py-5 text-muted">Day 4 Agenda Coming Soon...</h4>
+				</div><!--//tab-4-content-->
 			</div><!--//schedule-tab-content-->
 			<div class="schedule-cta text-center mx-auto"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" class="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Download Schedule</a><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" class="btn btn-secondary btn-lg d-block d-md-inline-block" target="_blank">Buy Tickets</a></div>
+			</div><!-- END_HIDDEN_SCHEDULE -->
 		</div><!--//container-->
 	</section><!--//schedule-section-->
 	
-	<section id="tickets-section" class="tickets-section section theme-bg-light">
+	<section id="registration-section" class="registration-section section theme-bg-light">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">Tickets</h3>
-			<div class="section-intro single-col-max mx-auto text-center mb-4">You can use 3rd party platforms such as <a class="theme-link" href="https://www.eventbrite.com/" target="_blank">eventbrite</a> and <a class="theme-link" href="https://www.tickettailor.com/" target="_blank">tickettailor</a> to sell your tickets.</div>
-			
-			<div class="row pricing mb-5">
-				<div class="col-12 col-md-4 p-2 p-lg-4">
-					<div class="card rounded-0 border-0">
+			<h3 class="section-heading text-center mb-3" data-aos="fade-up">Registration</h3>
+			<div class="section-intro single-col-max mx-auto text-center mb-5" data-aos="fade-up" data-aos-delay="100">Three registration fees based on the date you sign up. The fee includes access to all sessions, course materials, coffee breaks and the social dinner.</div>
+
+			<div class="row pricing mb-5 justify-content-center">
+				<div class="col-12 col-md-4 p-2 p-lg-3" data-aos="fade-up" data-aos-delay="100">
+					<div class="card rounded-0 border-0 h-100">
 						<div class="card-body p-0">
-							<div class="heading  text-center p-3">
-								<h4 class="text-white mb-0">Super Early Bird</h4>
-							</div>
-							<div class="info p-3">
-								<div class="price-figure text-center mb-3"><span class="currency">$</span><span class="number">250</span></div>
-								<div class="desc px-3">
-									Purchase before 1st Oct. Only 50 tickets available. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								</div>
-							</div><!--//info-->
-						</div><!--//card-body-->
-						<div class="card-footer text-center">
-							<a href="#" class="btn btn-primary disabled">SOLD OUT</a>
-						</div>
-					</div><!--//card-->
-				</div><!--//col-->
-				<div class="col-12 col-md-4 p-2 p-lg-4">
-					<div class="card card-special rounded-0 border-0">
-						<div class="card-body p-0">
-							<div class="heading  text-center p-3">
+							<div class="heading text-center p-3">
 								<h4 class="text-white mb-0">Early Bird</h4>
 							</div>
 							<div class="info p-3">
-								<div class="price-figure text-center"><span class="currency">$</span><span class="number">350</span></div>
-								<div class="desc px-3">
-									Purchase before 1st June 2022. Only 100 tickets available. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								<div class="price-figure text-center mb-3"><span class="currency">&euro;</span><span class="number">250</span></div>
+								<div class="desc px-3 text-center">
+									Register by <strong>May 15, 2026</strong>
 								</div>
-							</div><!--//info-->
-						</div><!--//card-body-->
-						<div class="card-footer text-center">
-							<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
-				<div class="col-12 col-md-4 p-2 p-lg-4">
-					<div class="card rounded-0 border-0">
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4 p-2 p-lg-3" data-aos="fade-up" data-aos-delay="200">
+					<div class="card card-special rounded-0 border-0 h-100">
 						<div class="card-body p-0">
-							<div class="heading  text-center p-3">
-								<h4 class="text-white mb-0">Regular</h4>
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0">Standard</h4>
 							</div>
 							<div class="info p-3">
-								<div class="price-figure text-center mb-3"><span class="currency">$</span><span class="number">500</span></div>
-								<div class="desc px-3">
-									Additional freebies and benefits included. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 						    
+								<div class="price-figure text-center mb-3"><span class="currency">&euro;</span><span class="number">350</span></div>
+								<div class="desc px-3 text-center">
+									From <strong>May 16</strong> to <strong>July 15, 2026</strong>
 								</div>
-							</div><!--//info-->
-						</div><!--//card-body-->
-						<div class="card-footer text-center">
-							<a href="#" class="btn btn-primary">Buy Now</a>
+							</div>
 						</div>
-					</div><!--//card-->
-				</div><!--//col-->
-			</div><!--//pricing-->
-			
-			<div class="offers text-center bg-white p-4 p-lg-5">
-				<h4 class="mb-3">What's included?</h4>
-				<ul class="offers-list list-unstyled d-inline-block mx-auto text-start">
-					<li><span class="icon-holder me-2"><i class="fas fa-user-tie"></i></span>60+ talks from industry-leading speakers</li>
-					<li><span class="icon-holder me-2"><i class="fas fa-people-carry"></i></span>Access to 40+ workshops</li>
-					<li><span class="icon-holder me-2"><i class="fas fa-glass-cheers"></i></span>Amazing after-parties</li>
-					<li><span class="icon-holder me-2"><i class="fas fa-utensils"></i></span>FREE drinks, refreshments, lunch and dinner</li>
-					<li><span class="icon-holder me-2"><i class="fas fa-tshirt"></i></span>FREE <a href="https://made4dev.com/" target="_blank">premium developer tees from made4dev</a></li>
-					<li><span class="icon-holder me-2"><i class="fas fa-book"></i></span>FREE Udemy courses</li>
-					<li><span class="icon-holder me-2"><i class="fas fa-gift"></i></span>FREE <a href="https://themes.3rdwavemedia.com/freebies/" target="_blank">Bootstrap templates and digital resources</a> for developers worth over $100</li>
-				</ul><!--offers-list-->
-			</div><!--//offers-->
+					</div>
+				</div>
 
+				<div class="col-12 col-md-4 p-2 p-lg-3" data-aos="fade-up" data-aos-delay="300">
+					<div class="card rounded-0 border-0 h-100">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0">Late</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure text-center mb-3"><span class="currency">&euro;</span><span class="number">450</span></div>
+								<div class="desc px-3 text-center">
+									From <strong>July 16</strong> to <strong>August 20, 2026</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--//pricing-->
+
+			<div class="text-center" data-aos="fade-up" data-aos-delay="400">
+				<a href="#" class="btn btn-primary btn-lg px-5 py-3 register-link" target="_blank">Register Now</a>
+				<p class="text-muted mt-3 mb-0" style="font-size:0.9rem;">A confirmation email with payment instructions will be sent after registration.</p>
+			</div>
 		</div><!--//container-->
-	</section><!--//tickets-section-->
+	</section><!--//registration-section-->
 	
 	
 	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
 		<div class="container">
-			<h3 class="section-heading text-center mb-5 text-white">Venue</h3>
-			<div class="row gx-5 py-lg-5">
-				<div class="col-12 col-lg-7 h-100">
-					<div class="desc">
-						<h4 class="text-white mb-3">How To Get Here</h4>
-						<p>Your venue info goes here. Sed feugiat nibh lorem, a laoreet sem aliquet ut. Praesent tincidunt efficitur nisi, ut eleifend diam tempor sit amet. Aliquam volutpat ex feugiat, semper urna a, pharetra lacus. Sed eget eros cursus, consequat lectus ultricies, efficitur metus. Sed sit amet mauris faucibus magna finibus convallis vel quis justo. Curabitur ultricies sagittis erat, quis faucibus lectus tempor vitae. Proin sodales, elit vitae accumsan efficitur, orci quam molestie orci, accumsan tincidunt dui turpis sed libero. Duis id vehicula ex. In quis pellentesque lorem, ut sollicitudin mauris.</p>
-						
-						<div class="row pt-3">
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title"><i class="fas fa-plane-departure me-2"></i>By Plane</h5>
-									<p>Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.</p>
-									<a class="text-white" href="#">Search Tickets &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title"><i class="fas fa-car me-2"></i>By Car</h5>
-									<p>Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.</p>
-									<a class="text-white" href="#">Check Route &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title"><i class="fas fa-bus-alt me-2"></i>By Bus</h5>
-									<p>Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci. </p>
-									<a class="text-white" href="#">Book Tickets &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-							<div class="col-12 col-md-6 mb-4">
-								<div class="grid-item p-4">
-									<h5 class="text-white mb-3 title"><i class="fas fa-subway me-2"></i>By Train</h5>
-									<p>Aliquam gravida, enim et efficitur feugiat, tellus ligula scelerisque orci, et sagittis erat lectus sit amet orci.</p>
-									<a class="text-white" href="#">Book Tickets &rarr;</a>
-								</div><!--//grid-item-->
-							</div><!--col-->
-						</div><!--//row-->
-						<h4 class="text-white mb-4 mt-3 mt-lg-5">Facilities &amp; Accommodations</h4>
-						<p>Your venue info goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat magna eu accumsan mattis. Duis non augue porttitor, fringilla velit vitae, ultricies eros. Sed libero eros, tristique ac orci nec, hendrerit dictum lacus. Aenean iaculis massa felis, eget venenatis turpis lacinia sit amet. </p>
-						<a class="btn btn-ghost" href="#">Search Hotels</a>
-					</div><!--//desc-->
-				</div><!--//col-->
-				<div class="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-100 mt-5 mt-lg-0">
-					<div class="figures-holder">
-						<div class="figure figure-1"><img class="shadow" src="assets/images/venue/venue-1.jpg" alt=""></div>
-						<div class="figure figure-2"><img class="shadow" src="assets/images/venue/venue-2.jpg" alt=""></div>
-						<div class="figure figure-3"><img class="shadow" src="assets/images/venue/venue-3.jpg" alt=""></div>
-						<div class="figure figure-4"><img class="shadow" src="assets/images/venue/venue-4.jpg" alt=""></div>
-					</div><!--//figures-holder-->
+			<h3 class="section-heading text-center mb-3 text-white" data-aos="fade-up">How to Reach Termoli</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5 text-white" data-aos="fade-up" data-aos-delay="100">All the ways to get to Termoli for the summer school.</div>
+
+			<div class="row justify-content-center py-lg-3">
+				<div class="col-12 col-lg-10">
+					<div class="row">
+						<!-- By Plane: box wide con intro + lista uniforme dei 4 aeroporti -->
+						<div class="col-12 mb-4" data-aos="fade-up" data-aos-delay="100">
+							<div class="grid-item p-4">
+								<h5 class="text-white mb-3 title"><i class="fas fa-plane-departure me-2"></i>By Plane</h5>
+								<p>The closest airports are <strong>Pescara (PSR)</strong> and <strong>Bari (BRI)</strong>. <strong>Rome Fiumicino (FCO)</strong> is the main international hub, with <strong>Naples (NAP)</strong> as a southern alternative.</p>
+								<div class="row mt-3 airport-routes">
+									<div class="col-md-6 mb-3">
+										<h6 class="text-white"><span class="airport-code">PSR</span> From Pescara</h6>
+										<p class="mb-0">Take the <em>Pescara Airlink</em> shuttle to Pescara Centrale, then a direct train to Termoli &mdash; about 1h from the airport.</p>
+									</div>
+									<div class="col-md-6 mb-3">
+										<h6 class="text-white"><span class="airport-code">BRI</span> From Bari</h6>
+										<p class="mb-0">Take the airport shuttle to Bari Centrale, then a direct train to Termoli &mdash; about 2h from the airport.</p>
+									</div>
+									<div class="col-md-6 mb-3">
+										<h6 class="text-white"><span class="airport-code">FCO</span> From Rome</h6>
+										<p class="mb-0">Take the <em>Leonardo Express</em> to Roma Termini, then a train to Termoli with one change &mdash; about 4h20 from the airport. <em>FlixBus</em> from Roma Tiburtina is a direct alternative.</p>
+									</div>
+									<div class="col-md-6 mb-3">
+										<h6 class="text-white"><span class="airport-code">NAP</span> From Naples</h6>
+										<p class="mb-0">Take the <em>Alibus</em> shuttle to Napoli Centrale, then a train to Termoli with a change at Foggia &mdash; about 4h30 from the airport.</p>
+									</div>
+								</div>
+							</div><!--//grid-item-->
+						</div><!--col-->
+
+						<!-- By Train -->
+						<div class="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+							<div class="grid-item p-4 h-100">
+								<h5 class="text-white mb-3 title"><i class="fas fa-train me-2"></i>By Train</h5>
+								<p>Termoli is on the <strong>Adriatic line</strong> (Bologna&ndash;Lecce). <strong>Regionale, Intercity and Frecciarossa</strong> trains connect Termoli with Bologna, Ancona, Pescara, Bari, Foggia and other major cities. The station is a short walk from the city center.</p>
+							</div><!--//grid-item-->
+						</div><!--col-->
+
+						<!-- By Car -->
+						<div class="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+							<div class="grid-item p-4 h-100">
+								<h5 class="text-white mb-3 title"><i class="fas fa-car me-2"></i>By Car</h5>
+								<p>Take the <strong>A14 Bologna&ndash;Taranto</strong> motorway and exit at <strong>Termoli</strong>. Follow signs to the city center. The A14 connects directly with all major Italian motorways from north and south. For live traffic updates: <a href="https://www.cciss.it" target="_blank" class="text-white">cciss.it</a>.</p>
+							</div><!--//grid-item-->
+						</div><!--col-->
+
+						<!-- By Bus -->
+						<div class="col-12 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+							<div class="grid-item p-4 h-100">
+								<h5 class="text-white mb-3 title"><i class="fas fa-bus-alt me-2"></i>By Bus</h5>
+								<p>Termoli is well served by national bus lines such as <strong>FlixBus</strong> and <strong>MarinoBus</strong>, with affordable connections from many Italian cities. Direct services from Rome (Tiburtina) and other Adriatic cities are particularly convenient.</p>
+							</div><!--//grid-item-->
+						</div><!--col-->
+					</div><!--//row-->
 				</div><!--//col-->
 			</div><!--//row-->
 		</div><!--//container-->
 	</section><!--//venue-section-->
 
-	<section id="sponsors-section" class="sponsors-section section">
+	<section id="hotels-section" class="hotels-section section theme-bg-light">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">Sponsors &amp; Partners</h3>
+			<h3 class="section-heading text-center mb-3" data-aos="fade-up">Hotels</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5" data-aos="fade-up" data-aos-delay="100">A selection of hotels close to the University of Molise &mdash; Termoli campus.</div>
+
+			<div class="row g-4 justify-content-center">
+				<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+					<div class="hotel">
+						<div class="hotel-img">
+							<img src="assets/images/hotels/lumia.jpg" alt="LUMIA Hotel" class="img-fluid">
+						</div>
+						<div class="hotel-body">
+							<h4 class="hotel-name"><a href="https://lumiahotel.it/" target="_blank" rel="noopener">LUMIA Hotel</a></h4>
+							<div class="stars" aria-label="4 stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<p class="distance"><i class="fas fa-map-marker-alt me-2"></i>1.2 km from University of Molise &ndash; Termoli</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+					<div class="hotel">
+						<div class="hotel-img">
+							<img src="assets/images/hotels/mistral.png" alt="Hotel MISTRAL" class="img-fluid">
+						</div>
+						<div class="hotel-body">
+							<h4 class="hotel-name"><a href="https://www.hotelmistral.net/it/" target="_blank" rel="noopener">Hotel MISTRAL</a></h4>
+							<div class="stars" aria-label="4 stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<p class="distance"><i class="fas fa-map-marker-alt me-2"></i>300 m from University of Molise &ndash; Termoli</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+					<div class="hotel">
+						<div class="hotel-img">
+							<img src="assets/images/hotels/meridiano2.jpg" alt="Hotel MERIDIANO" class="img-fluid">
+						</div>
+						<div class="hotel-body">
+							<h4 class="hotel-name"><a href="https://www.hotelmeridiano.com/it/" target="_blank" rel="noopener">Hotel MERIDIANO</a></h4>
+							<div class="stars" aria-label="3 stars">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</div>
+							<p class="distance"><i class="fas fa-map-marker-alt me-2"></i>200 m from University of Molise &ndash; Termoli</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+					<div class="hotel">
+						<div class="hotel-img">
+							<img src="assets/images/hotels/residenza-sveva.jpg" alt="Residenza SVEVA" class="img-fluid">
+						</div>
+						<div class="hotel-body">
+							<h4 class="hotel-name"><a href="https://www.residenzasveva.com/" target="_blank" rel="noopener">Residenza SVEVA</a></h4>
+							<div class="award"><i class="fas fa-award me-2"></i>Tripadvisor Traveller's Choice Awards</div>
+							<p class="distance"><i class="fas fa-map-marker-alt me-2"></i>1 km from University of Molise &ndash; Termoli</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--//hotels-section-->
+
+	<!--<section id="sponsors-section" class="sponsors-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Sponsors</h3>
 			<div class="section-intro text-center single-col-max mx-auto mb-5">Want to become a sponsor? Get in touch lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat magna eu accumsan mattis.</div>
 			<div class="row logos justify-content-center">
 				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-1.svg" alt=""></div>
@@ -665,32 +856,69 @@
 				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-10.svg" alt=""></div>
 				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-11.svg" alt=""></div>
 				<div class="logo-item col-6 col-md-4 col-lg-2"><img src="assets/images/logos/logo-12.svg" alt=""></div>
-			</div><!--//row-->
-			<div class="sponsors-cta text-center pt-5"><a class="btn-primary btn btn-lg" href="#">Become A Sponsor</a></div>
-		</div><!--//container-->
-	</section><!--//sponsors-section-->
+			</div>
+		</div>
+	</section>-->
+
+	<section id="team-section" class="team-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5" data-aos="fade-up">Organizing Team</h3>
+			<div class="row justify-content-center">
+				<div class="col-6 col-md-3 mb-4 text-center" data-aos="fade-up" data-aos-delay="100">
+					<div class="team-member">
+						<img src="assets/images/team/rocco.png" alt="Rocco Oliveto" class="profile-image rounded-circle mb-3">
+						<h5 class="name mb-2">Rocco Oliveto</h5>
+						<div class="affiliation">Full Professor<br>University of Molise</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 mb-4 text-center" data-aos="fade-up" data-aos-delay="200">
+					<div class="team-member team-member-placeholder">
+						<img src="assets/images/team/placeholder.svg" alt="To be announced" class="profile-image rounded-circle mb-3">
+						<h5 class="name mb-2">To be announced</h5>
+						<div class="affiliation">&nbsp;</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 mb-4 text-center" data-aos="fade-up" data-aos-delay="300">
+					<div class="team-member team-member-placeholder">
+						<img src="assets/images/team/placeholder.svg" alt="To be announced" class="profile-image rounded-circle mb-3">
+						<h5 class="name mb-2">To be announced</h5>
+						<div class="affiliation">&nbsp;</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 mb-4 text-center" data-aos="fade-up" data-aos-delay="400">
+					<div class="team-member team-member-placeholder">
+						<img src="assets/images/team/placeholder.svg" alt="To be announced" class="profile-image rounded-circle mb-3">
+						<h5 class="name mb-2">To be announced</h5>
+						<div class="affiliation">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--//team-section-->
 
 	<footer class="footer py-5 theme-bg-primary">
 		<div class="container text-center">
 			
-			<ul class="social-list list-inline mb-4"> 
+			<!--<ul class="social-list list-inline mb-4"> 
 				<li class="list-inline-item me-3"><a href="#"><i class="fas fa-envelope"></i></a></li>
 				<li class="list-inline-item me-3"><a href="#"><i class="fa-brands fa-x-twitter fa-fw"></i></a></li>
 				<li class="list-inline-item me-3"><a href="#"><i class="fa-brands fa-instagram fa-fw"></i></a></li>
 				<li class="list-inline-item me-0"><a href="#"><i class="fa-brands fa-youtube fa-fw"></i></a></li>
-			</ul><!--//social-list-->
+			</ul>-->
 			
 			
-			<ul class="footer-links list-inline mx-auto mb-4">
+			<!--<ul class="footer-links list-inline mx-auto mb-4">
 				<li class="list-inline-item"><a href="#">Code of Conduct</a></li>
 				<li class="list-inline-item">|</li>
 				<li class="list-inline-item"><a href="#">Terms</a></li>
 				<li class="list-inline-item">|</li>
 				<li class="list-inline-item me-0"><a href="#">Privacy</a></li>
-			</ul><!--//footer-link-->
+			</ul>//footer-link-->
 			
+			<p class="text-white-50 mb-3"><strong>BITES 2026</strong> — 1st International Summer School on Biosciences, Informatics, Tourism, Engineering and Sustainability<br>Department of Biosciences and Territory · University of Molise · Termoli, Italy</p>
+
 			 <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-			<small class="copyright">Designed with <i class="fas fa-heart" style="color: #EC645E;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+			<small class="copyright">@BITES 2026 | Designed</i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
 			
 		</div><!--//container-->	    
 	</footer>
@@ -732,12 +960,48 @@
 		</div><!--//modal-dialog-->
 	</div><!--//modal-->
 	
-	<!-- Javascript -->          
+	<!-- Javascript -->
 	<script src="assets/plugins/popper.min.js"></script>
-	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/plugins/smoothscroll.min.js"></script>
-	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script> 
-	<script src="assets/js/main.js"></script>  
+	<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<!-- AOS (Animate On Scroll) -->
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 800,
+			easing: 'ease-out-cubic',
+			once: true,
+			offset: 80
+		});
+	</script>
+
+	<!-- GLightbox JS -->
+	<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+	<script>
+		const lightbox = GLightbox({ selector: '.glightbox' });
+	</script>
+
+	<!-- Back to top button -->
+	<a href="#hero-block" id="back-to-top" aria-label="Back to top" title="Back to top"><i class="fas fa-chevron-up"></i></a>
+	<script>
+		(function() {
+			const btn = document.getElementById('back-to-top');
+			window.addEventListener('scroll', function() {
+				if (window.scrollY > 400) {
+					btn.classList.add('visible');
+				} else {
+					btn.classList.remove('visible');
+				}
+			});
+			btn.addEventListener('click', function(e) {
+				e.preventDefault();
+				window.scrollTo({ top: 0, behavior: 'smooth' });
+			});
+		})();
+	</script>
 
 </body>
 </html> 

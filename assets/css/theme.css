@@ -10,3 +10,646 @@
  * Website: http://themes.3rdwavemedia.com/
  * Twitter: @3rdwave_themes
 */body{font-family:'Roboto', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#415b78}h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{font-family:'Montserrat', sans-serif;color:#141c25;font-weight:700}a{text-decoration:none}a:hover{text-decoration:underline}a.theme-link{color:#141c25;text-decoration:underline;text-decoration-color:rgba(20,28,37,0.3)}a.theme-link:hover{color:#098dcf;text-decoration-color:rgba(9,141,207,0.8)}.btn{font-weight:700;padding:0.6rem 1.25rem;transition:all 0.4s ease-in-out;border:none;color:white;font-family:'Montserrat', sans-serif;color:#fff}@media (prefers-reduced-motion: reduce){.btn{transition:none}}.btn:focus{box-shadow:none;color:white}.btn-primary{background:#098dcf;text-decoration:none;color:#fff}.btn-primary:hover,.btn-primary:focus,.btn-primary:active{text-decoration:none;background:#076c9e;box-shadow:none;color:#fff}.btn-primary.disabled{color:rgba(255,255,255,0.8)}.btn-secondary{background:#EC645E;text-decoration:none;color:#fff}.btn-secondary:hover,.btn-secondary:focus,.btn-secondary:active,.btn-secondary:not(:disabled):not(.disabled):active:focus{text-decoration:none;background:#e73830;box-shadow:none;color:#fff}.btn-ghost{background:none;border:2px solid #fff;color:#fff}.btn-ghost:hover{background:#fff;color:#098dcf}.theme-bg-light{background:#f0f6fa}.theme-bg-dark{background:#141c25}.theme-bg-primary{background:#098dcf}#topcontrol{transition:all 0.4s ease-in-out;background:#415b78;color:#fff;text-align:center;display:inline-block;z-index:30;width:2.5rem;height:2.5rem;border-radius:.25rem;box-shadow:0 0.125rem 0.25rem rgba(0,0,0,0.075);padding-top:0.5rem;font-weight:300;font-size:1rem}@media (prefers-reduced-motion: reduce){#topcontrol{transition:none}}#topcontrol:hover{background:#076c9e;color:#fff}.single-col-max{max-width:800px}.header{padding-top:0.5rem;padding-bottom:0.5rem;transition:all 0.4s ease-in-out;z-index:100;min-height:60px;background:none}@media (prefers-reduced-motion: reduce){.header{transition:none}}.header .navbar{padding:0}.header .logo-icon{height:34px;width:auto}.header-shrink{box-shadow:0 1px 4px 0 rgba(0,0,0,0.1);background:#141c25}.navbar-nav .nav-item{font-family:'Montserrat', sans-serif;font-size:0.875rem}.navbar-nav .nav-item.active .nav-link{-webkit-opacity:1;-moz-opacity:1;opacity:1}.navbar-nav .nav-link{color:#fff;-webkit-opacity:.75;-moz-opacity:.75;opacity:.75;font-weight:600;padding:1rem;text-decoration:none}.navbar-nav .nav-link:hover{-webkit-opacity:1;-moz-opacity:1;opacity:1}.navbar-toggler{border:1px solid #fff;padding:0.4rem 0.5rem;outline:none !important}.navbar-toggler .navbar-toggler-icon{background:url("../images/bars.svg") no-repeat left top;height:20px;width:27px}.hero-block{position:relative;background-size:cover;height:620px;padding-top:130px}.hero-block-mask{background:rgba(0,0,0,0.5);position:absolute;left:0;top:0;width:100%;height:100%;z-index:10}.hero-carousel{position:absolute;left:0;top:0;width:100%;height:100%}.hero-carousel .carousel-inner{height:100%}.hero-carousel .carousel-item{background-color:#141c25;width:100%;height:100%}.hero-carousel .carousel-item-1{background:url("../images/hero-1.jpg") no-repeat center center}.hero-carousel .carousel-item-2{background:url("../images/hero-2.jpg") no-repeat center center}.hero-carousel .carousel-item-3{background:url("../images/hero-3.jpg") no-repeat center center}.hero-text-block{color:#fff;max-width:600px;position:relative;z-index:20}.hero-text-block h1.hero-heading,.hero-text-block .hero-heading.h1{color:#fff;font-size:4rem;font-weight:800}.hero-text-block .hero-intro{font-size:1.75rem}.hero-text-block .hero-meta{font-size:1.75rem;font-family:'Montserrat', sans-serif;font-weight:700}.stats-block .item{line-height:1.3}.stats-block .number{font-size:2.5rem;font-weight:700;font-family:'Montserrat', sans-serif}.stats-block .unit{font-size:1.5rem;color:rgba(0,0,0,0.6)}.countdown-box span{display:inline-block;padding:0.5rem 0;min-width:60px}.countdown-box span>span{display:block;padding:0}.countdown-box .number{font-size:2rem;font-weight:400;color:#141c25}.countdown-box .unit{-webkit-opacity:.8;-moz-opacity:.8;opacity:.8}.section{padding-top:4rem;padding-bottom:4rem}.section-heading{font-size:2rem;font-weight:800}.section-intro{font-size:1.125rem}.about-section{padding-bottom:0}.benefits-list li{margin-bottom:0.5rem;font-size:1.125rem}.benefits-list li .svg-inline--fa{color:#5ab66e}.speakers-section .card{border:none;background:#f0f6fa;margin-bottom:2rem;height:100%}.speakers-section .card-title{font-size:1.125rem}.speakers-section .card-img-top:hover{-webkit-opacity:.9;-moz-opacity:.9;opacity:.9}.speakers-section .card-footer{background:#e8f1f7;border-top:none}.modal-speaker .profile-image{width:120px}.modal-speaker h2.name,.modal-speaker .name.h2{font-size:1.5rem}.modal-speaker .social-list{font-size:1.25rem}.modal-speaker .modal-content{position:relative}.modal-speaker .modal-header{padding:0}.modal-speaker .modal-header .btn-close{width:45px;height:45px;margin:0;padding:0;font-size:2.5rem;font-weight:300;position:absolute;text-shadow:none;color:#fff;background:#098dcf;top:0;right:0;z-index:10;border-radius:0;line-height:1}.modal-speaker .modal-header .btn-close:hover{background:#098dcf;color:#fff}.schedule-nav .nav-item span{display:block}.schedule-nav .nav-item .heading{font-family:'Montserrat', sans-serif;font-weight:700;font-size:1.25rem}.schedule-nav .nav-item .meta{-webkit-opacity:.8;-moz-opacity:.8;opacity:.8}.schedule-nav .nav-link{background:#f0f6fa;border-radius:0;border-right:rgba(0,0,0,0.1);text-decoration:none}.schedule-tab-content{padding:2rem 0}.schedule-tab-content .tab-pane{position:relative}.schedule-tab-content .tab-pane:after{content:"";display:block;background:#e5ecf4;position:absolute;width:3px;height:100%;left:196px;top:5px}.schedule-tab-content .tab-pane.no-timeline:after{display:none}.schedule-tab-content .item{position:relative;margin-bottom:2rem}.schedule-tab-content .item .item-talk{min-height:165px}.schedule-tab-content .item:after{content:"";display:inline-block;position:absolute;z-index:5;left:190px;top:5px;width:16px;height:16px;border:4px solid #098dcf;background:white;border-radius:50%}.schedule-tab-content .item .meta{position:absolute;left:0;top:0;width:200px;padding:1rem;padding-top:0;text-align:center;font-size:0.875rem}.schedule-tab-content .item .meta .time{font-size:1.25rem;color:#098dcf}.schedule-tab-content .item .meta .location{font-weight:bold}.schedule-tab-content .item .profile-image{width:80px}.schedule-tab-content .item .content{padding-left:240px}.schedule-tab-content .item .content .title{font-size:1.25rem}.offers-list li{padding-top:0.5rem;padding-bottom:0.5rem;font-size:1.125rem}.offers-list li .icon-holder{width:42px;height:42px;background:#f0f6fa;color:#098dcf;display:inline-block;text-align:center;border-radius:50%;padding-top:0.5rem}.offers-list li .svg-inline--fa{font-size:1.125rem}.pricing .card{background:#fff;height:100%}.pricing .heading{background:#098dcf;color:#fff}.pricing .heading h4,.pricing .heading .h4{font-size:1.125rem}.pricing .price-figure{font-size:2rem}.pricing .card-footer{background:white;border-top:0;padding-bottom:2rem}.venue-section{overflow-x:hidden}.venue-section .figure{position:relative}.venue-section .figure img{border:10px solid #fff;max-width:100%}.venue-section .figure.figure-1{z-index:1;transform:scale(1.1)}.venue-section .figure.figure-2{transform:rotate(2deg);z-index:2}.venue-section .figure.figure-3{transform:rotate(358deg);z-index:3;margin-top:-2rem}.venue-section .figure.figure-4{z-index:3;transform:scale(1.1)}.venue-section .grid-item{border:1px solid #fff}.venue-section .grid-item .title{font-size:1.125rem}.venue-section .grid-item .svg-inline--fa{font-size:1.25rem}.logo-item{margin-bottom:1rem}.logo-item img{max-width:100%}.footer{color:#fff}.footer a{color:#fff}.footer a:hover{color:#fff}.footer .social-list{font-size:1.5rem}@media (min-width: 576px){.modal-dialog{max-width:500px}}@media (min-width: 768px){.navbar-expand-lg .navbar-nav .nav-link{padding-left:1rem;padding-right:1rem}.modal-dialog{max-width:700px}.countdown-box span{padding:0.5rem 1.5rem;min-width:90px}}@media (min-width: 992px){.modal-dialog{max-width:800px}.venue-section .figures-holder{position:absolute;top:0;right:0}}@media (max-width: 767.98px){.header{background:rgba(20,28,37,0.95)}.section{padding-top:3rem;padding-bottom:3rem}.hero-block{height:auto;padding-bottom:5rem}.hero-text-block h1.hero-heading,.hero-text-block .hero-heading.h1{font-size:2.5rem}.hero-text-block .hero-meta{font-size:1.25rem}.hero-text-block .hero-intro{font-size:1.25rem}.stats-block .number{font-size:1.75rem}.stats-block .unit{font-size:1rem}.speakers-section .card{height:inherit}.schedule-nav .nav-item .heading{font-size:0.875rem}.schedule-nav .nav-item .meta{font-size:0.75rem}.schedule-nav .nav-link{padding-right:0;padding-left:0}.schedule-tab-content .item .meta{position:static;width:auto}.schedule-tab-content .tab-pane:after,.schedule-tab-content .item:after{display:none}.schedule-tab-content .item .content{padding-left:0}.schedule-tab-content .item{background:#f0f6fa;padding:1rem}.schedule-tab-content .item:last-child{margin-bottom:0}}@media (max-width: 991.98px){.header-has-bg{background:#141c25}.venue-section{overflow-x:hidden}.venue-section .figure{margin-bottom:1rem}.venue-section .figure.figure-1{z-index:1;transform:scale(1)}.venue-section .figure.figure-2{transform:rotate(0deg);z-index:2}.venue-section .figure.figure-3{transform:rotate(0deg);z-index:3;margin-top:0}.venue-section .figure.figure-4{z-index:3;transform:scale(1)}}
+
+/* ===== About con sfondo immagine + parallax CSS (cross-platform, iOS-safe) ===== */
+
+#about-section {
+    background: url('../images/background-parallax.jpg') no-repeat center center !important;
+    background-size: cover !important;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Effetto "parallax CSS" SOLO da desktop in su (su iOS background-attachment: fixed è rotto) */
+@media (min-width: 1024px) {
+    #about-section {
+        background-attachment: fixed !important;
+    }
+}
+
+/* Overlay scuro semi-trasparente per leggibilità del testo */
+#about-section:before {
+    content: "";
+    background: rgba(13, 20, 41, 0.7);
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Il contenuto (container e media-block) sta sopra l'overlay */
+#about-section > .container,
+#about-section > .media-block {
+    position: relative;
+    z-index: 1;
+}
+
+/* Testo bianco nel container superiore della About (mantiene leggibilità sopra l'overlay scuro) */
+#about-section > .container,
+#about-section > .container h3,
+#about-section > .container h4,
+#about-section > .container p,
+#about-section > .container li {
+    color: #fff;
+}
+
+/* Le icone fa-check-circle restano del verde brand per contrasto */
+#about-section > .container .benefits-list li .svg-inline--fa {
+    color: #5ab66e;
+}
+
+/* Numeri del countdown: forza colore chiaro (originalmente erano scuri su sfondo chiaro) */
+#about-section > .container .countdown-box .number {
+    color: #fff;
+}
+
+/* ===== Termoli Section (stile edge-to-edge ispirato al sito Spoke 5) ===== */
+.termoli-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+/* Riga 1: foto principale + venue-info col bg porto */
+.termoli-section .venue-info {
+    background: url('../images/termoli/porto.jpeg') top center no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 60px 0;
+    color: #fff;
+    min-height: 320px;
+}
+.termoli-section .venue-info:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(13, 20, 41, 0.8);
+}
+.termoli-section .venue-info > .row,
+.termoli-section .venue-info > a {
+    position: relative;
+    z-index: 1;
+}
+.termoli-section .venue-info h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.termoli-section .venue-info p {
+    color: #fff;
+    margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+    .termoli-section .venue-info h3 { font-size: 24px; }
+}
+
+/* Riga 2: descrizione UniMol + bg image Sede-Termoli */
+.termoli-section .venue-info-sede {
+    background-color: #f0f6fa;
+    padding: 60px 0;
+    min-height: 320px;
+}
+.termoli-section .venue-info-sede h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.termoli-section .venue-info-sede-img {
+    min-height: 320px;
+    overflow: hidden;
+}
+.termoli-section .venue-info-sede-img a,
+.termoli-section .venue-info-sede-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    object-fit: cover;
+}
+
+/* Play button stile Spoke 5 (cerchio rosso con triangolo + animazione pulse) */
+.termoli-section .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#eb3f33 50%, rgba(101, 111, 150, 0.15) 52%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    z-index: 2;
+}
+.termoli-section .play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+}
+.termoli-section .play-btn::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: -13px;
+    left: -13px;
+    background: rgba(235, 63, 51, 0.4);
+    border-radius: 50%;
+    animation: termoli-pulsate 2s infinite;
+    z-index: -1;
+}
+@keyframes termoli-pulsate {
+    0%   { transform: scale(0.6); opacity: 0; }
+    50%  { opacity: 1; }
+    100% { transform: scale(1); opacity: 0; }
+}
+
+/* Galleria edge-to-edge: bordi bianchi tra le foto, hover zoom */
+.termoli-section .venue-gallery {
+    overflow: hidden;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    position: relative;
+}
+.termoli-section .venue-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out;
+    display: block;
+}
+.termoli-section .venue-gallery:hover img {
+    transform: scale(1.1);
+}
+.termoli-section .venue-gallery .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* ===== Organizing Team Section ===== */
+.team-section .profile-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 4px solid #098dcf;
+    transition: transform 0.3s ease;
+}
+.team-section .team-member:hover .profile-image {
+    transform: scale(1.05);
+}
+.team-section .name {
+    color: #098dcf;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+.team-section .affiliation {
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: #6c757d;
+}
+
+/* Card placeholder per organizzatori da annunciare: nome più tenue, foto senza bordo enfatizzato */
+.team-section .team-member-placeholder .name {
+    color: #adb5bd;
+    font-style: italic;
+    font-weight: 500;
+}
+.team-section .team-member-placeholder .profile-image {
+    border-color: #ced4da;
+    opacity: 0.85;
+}
+
+/* ===== BRAND COLOR OVERRIDE: blu template -> verde dipartimento UniMol Informatica =====
+   Per cambiare tonalita di verde in futuro: modifica solo --brand-green e --brand-green-dark qui sotto. */
+
+:root {
+    --brand-green: #16a34a;
+    --brand-green-dark: #15803d;
+    --brand-green-light: #dcfce7;
+    /* Override variabili Bootstrap */
+    --bs-primary: #16a34a;
+    --bs-primary-rgb: 22, 163, 74;
+    --bs-primary-text-emphasis: #166534;
+    --bs-primary-bg-subtle: #dcfce7;
+    --bs-primary-border-subtle: #86efac;
+}
+
+/* --- Bottoni primari --- */
+.btn-primary {
+    background: var(--brand-green) !important;
+    border-color: var(--brand-green) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+    background: var(--brand-green-dark) !important;
+    border-color: var(--brand-green-dark) !important;
+    color: #fff !important;
+}
+.btn-ghost:hover {
+    background: #fff;
+    color: var(--brand-green);
+}
+
+/* --- Background utility primary (footer, hero-stats) --- */
+.theme-bg-primary {
+    background: var(--brand-green) !important;
+}
+
+/* --- Link a tema --- */
+a.theme-link:hover {
+    color: var(--brand-green) !important;
+    text-decoration-color: rgba(22, 163, 74, 0.8) !important;
+}
+
+/* --- Back-to-top button hover --- */
+#topcontrol:hover {
+    background: var(--brand-green-dark);
+    color: #fff;
+}
+
+/* --- Schedule timeline marker + ora --- */
+.schedule-tab-content .item:after {
+    border-color: var(--brand-green) !important;
+}
+.schedule-tab-content .item .meta .time {
+    color: var(--brand-green) !important;
+}
+
+/* --- Modal speaker (bottone chiudi) --- */
+.modal-speaker .modal-header .btn-close,
+.modal-speaker .modal-header .btn-close:hover {
+    background: var(--brand-green) !important;
+}
+
+/* --- Pricing / Offers section --- */
+.offers-list li .icon-holder {
+    color: var(--brand-green);
+}
+.pricing .heading {
+    background: var(--brand-green);
+}
+
+/* --- Speakers card footer (era azzurrino chiaro -> verdino chiaro per coerenza) --- */
+.speakers-section .card-footer {
+    background: #f0fdf4;
+}
+
+/* --- Override sezioni custom (About, Termoli, Team) --- */
+
+/* About section: overlay grigio scuro neutro, identico al hero per coerenza visiva (ispirazione spoke5) */
+#about-section:before {
+    background: rgba(20, 28, 37, 0.70) !important;
+}
+
+/* Termoli venue-info: overlay grigio scuro neutro, identico a hero/about per coerenza visiva */
+.termoli-section .venue-info:before {
+    background: rgba(20, 28, 37, 0.65) !important;
+}
+
+/* Team section: bordo foto + nome */
+.team-section .profile-image {
+    border-color: var(--brand-green) !important;
+}
+.team-section .name {
+    color: var(--brand-green) !important;
+}
+
+/* ===== Fix header: logo + sfondo per leggibilita su qualsiasi immagine hero ===== */
+
+/* Sfondo header off-white al 92% + blur: effetto "vetro" moderno, lascia intravedere appena lo sfondo sotto */
+.header {
+    background: rgba(250, 250, 250, 0.70) !important;
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* Link della nav: in scuro per leggibilita su fondo bianco (sovrascrive il bianco del template) */
+.header .navbar-nav .nav-link {
+    color: #1e293b !important;
+    opacity: 1 !important;
+}
+.header .navbar-nav .nav-link:hover,
+.header .navbar-nav .nav-item.active .nav-link {
+    color: var(--brand-green) !important;
+    opacity: 1 !important;
+}
+
+/* Toggler mobile: bordo + icona scuri (erano bianchi su fondo scuro) */
+.header .navbar-toggler {
+    border-color: #1e293b;
+}
+.header .navbar-toggler .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Logo piu grande (era 34px) */
+.header .logo-icon {
+    height: 50px;
+    width: auto;
+}
+
+/* ===== Bottone Register (.btn-secondary) -> verde scuro brand, hover ancora piu scuro ===== */
+.btn-secondary {
+    background: #15803d !important;
+    border-color: #15803d !important;
+    color: #fff !important;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:not(:disabled):not(.disabled):active:focus {
+    background: #166534 !important;
+    border-color: #166534 !important;
+    color: #fff !important;
+}
+
+/* ===== Hero: ridurre la dominanza dell'immagine, titolo piu raffinato, contrasto migliore ===== */
+
+/* Mascherina scura piu intensa (era 0.5 -> 0.65): l'immagine diventa backdrop, il testo diventa focus */
+.hero-block-mask {
+    background: rgba(0, 0, 0, 0.65) !important;
+}
+
+/* Carosello: leggero blur + saturazione attenuata = look "cinematic", l'immagine si sente ma non urla */
+.hero-carousel .carousel-item {
+    filter: brightness(0.9) saturate(0.85);
+}
+
+/* Titolo: da 4rem -> 2.75rem (responsive, piu elegante e meno "shouty") */
+.hero-text-block h1.hero-heading,
+.hero-text-block .hero-heading.h1 {
+    font-size: 2.75rem !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.5px;
+}
+
+/* Meta (data + luogo): rimpicciolita e con leggero shadow */
+.hero-text-block .hero-meta {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+    opacity: 0.95;
+}
+
+/* Intro (descrizione): bilanciata tra meta e titolo */
+.hero-text-block .hero-intro {
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+    opacity: 0.92;
+    line-height: 1.5;
+}
+
+/* Su mobile: titolo proporzionato */
+@media (max-width: 767.98px) {
+    .hero-text-block h1.hero-heading,
+    .hero-text-block .hero-heading.h1 {
+        font-size: 2rem !important;
+    }
+    .hero-text-block .hero-intro,
+    .hero-text-block .hero-meta {
+        font-size: 1rem !important;
+    }
+}
+
+/* ===== Hero: mostra la foto INTERA (contain) invece che zoomata (cover) ===== */
+.hero-carousel .carousel-item {
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-color: #0a0e14;  /* nero leggermente bluastro per gli spazi laterali/sopra-sotto */
+    /* Ridotto leggermente il filtro per far vedere l'immagine piu chiaramente */
+    filter: brightness(0.95) saturate(0.95);
+}
+
+/* ===== Hero: ottimizzazione per la nuova foto drone UniMol Termoli =====
+   Foto wide-angle 16:9 con soggetto centrato (edificio + mare) -> usiamo cover per riempire,
+   posizione center-center per mantenere l'edificio visibile, mascherina leggera per non
+   spegnere la foto, filtro neutro per godersi i colori del sole/mare. */
+.hero-carousel .carousel-item-1 {
+    background: url('../images/hero-1.jpg') no-repeat center 20% !important;
+    background-size: cover !important;
+    background-color: transparent;
+    filter: none;
+}
+
+/* Mascherina sopra hero: stesso grigio scuro dell'overlay About per transizione continua (ispirazione spoke5) */
+.hero-block-mask {
+    background: rgba(20, 28, 37, 0.70) !important;
+}
+
+/* Hero-block: mantengo 620px ma su mobile riduciamo per non avere troppa altezza */
+@media (min-width: 768px) {
+    .hero-block {
+        height: 580px;
+    }
+}
+
+
+/* ===== Hotels Section ===== */
+.hotels-section .hotel {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hotels-section .hotel:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.hotels-section .hotel-img {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.hotels-section .hotel-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+.hotels-section .hotel:hover .hotel-img img {
+    transform: scale(1.05);
+}
+
+.hotels-section .hotel-body {
+    padding: 0.9rem 1rem 1.1rem;
+}
+.hotels-section .hotel-name {
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.3;
+}
+.hotels-section .hotel-name a {
+    color: #141c25;
+    text-decoration: none;
+}
+.hotels-section .hotel-name a:hover {
+    color: var(--brand-green);
+}
+
+.hotels-section .stars {
+    color: #f5b301;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+.hotels-section .stars i {
+    margin-right: 2px;
+}
+
+.hotels-section .award {
+    color: #6c757d;
+    font-size: 0.78rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+    line-height: 1.3;
+}
+.hotels-section .award i {
+    color: #f5b301;
+}
+
+.hotels-section .distance {
+    color: #6c757d;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+    line-height: 1.35;
+}
+.hotels-section .distance i {
+    color: var(--brand-green);
+}
+
+/* ===== Theme-bg-light: da azzurrino #f0f6fa -> verdino chiaro tono-su-tono col brand verde ===== */
+.theme-bg-light {
+    background: #f0fdf4 !important;
+}
+
+/* ===== Back-to-top button (fisso in basso a destra, appare dopo 400px di scroll) ===== */
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--brand-green);
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, background 0.2s ease;
+    z-index: 999;
+    font-size: 1.05rem;
+}
+#back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+#back-to-top:hover {
+    background: var(--brand-green-dark);
+    color: #fff !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+@media (max-width: 575.98px) {
+    #back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 42px;
+        height: 42px;
+    }
+}
+
+/* Sottotitolo dell'hero (nome esteso della summer school) */
+.hero-subheading {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+@media (min-width: 768px) {
+    .hero-subheading {
+        font-size: 1.5rem;
+    }
+}
+
+/* Airport code badge nelle sub-card di "By Plane" — sostituisce le 4 icone identiche */
+.airport-routes .airport-code {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    vertical-align: 2px;
+}
+
+/* Link maps nel hero-meta: bianco, underline solo su hover */
+.hero-meta .hero-meta-link {
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+.hero-meta .hero-meta-link:hover,
+.hero-meta .hero-meta-link:focus {
+    color: inherit;
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+/* Link "View on Google Maps" sotto la descrizione UniMol nella sezione Termoli */
+.venue-maps-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: var(--brand-green);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+.venue-maps-link:hover,
+.venue-maps-link:focus {
+    color: var(--brand-green-dark);
+    text-decoration: underline;
+    transform: translateX(2px);
+}
