@@ -442,199 +442,151 @@
 	
 	<section id="schedule-section" class="schedule-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-5">Schedule</h3>
+			<h3 class="section-heading text-center mb-3">Schedule</h3>
+			<div class="section-intro single-col-max mx-auto text-center mb-4" data-aos="fade-up">A four-day program (August 25-28, 2026) combining keynote lectures by international and Italian speakers, hands-on tutorials, students' talks and social activities. Each day focuses on a different application domain of AI and data science.</div>
 
-			<p class="text-center text-muted py-5 mb-0" style="font-size:1.25rem;" data-aos="fade-up">The schedule will be announced soon. Stay tuned!</p>
+			<!-- ===== Schedule grid: 4 columns (one per day) ===== -->
+			<div class="schedule-grid" data-aos="fade-up">
 
-			<!-- Contenuto originale del template (4 tab Day 1-4 + agenda + CTA) nascosto via attributo HTML hidden. Per riattivarlo: rimuovi il tag div di apertura "div hidden" qui sotto e il corrispondente tag div di chiusura piu in basso (cerca il marker END_HIDDEN_SCHEDULE). -->
-			<div hidden>
-			<!-- Nav tabs (4 giorni: Aug 25-28, 2026) -->
-			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
-				<li class="nav-item me-2">
-					<a class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content" role="tab" aria-controls="tab-1-content" aria-selected="true">
-						<span class="heading">Day 1</span>
-						<span class="meta">(Tue 25, Aug)</span>
-					</a>
-				</li>
-				<li class="nav-item me-2">
-					<a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab" aria-controls="tab-2-content" aria-selected="false">
-						<span class="heading">Day 2</span>
-						<span class="meta">(Wed 26, Aug)</span>
-					</a>
-				</li>
-				<li class="nav-item me-2">
-					<a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tab-3-content" role="tab" aria-controls="tab-3-content" aria-selected="false">
-						<span class="heading">Day 3</span>
-						<span class="meta">(Thu 27, Aug)</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" id="tab-4" data-bs-toggle="tab" href="#tab-4-content" role="tab" aria-controls="tab-4-content" aria-selected="false">
-						<span class="heading">Day 4</span>
-						<span class="meta">(Fri 28, Aug)</span>
-					</a>
-				</li>
-			</ul>
-			
-			<!-- Tab panes -->
-			<div class="schedule-tab-content tab-content">
-				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">9:00 - 9:30</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-1.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">James Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Best Practices And Tips For A Clean Angular Application</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">9:30 - 10:00</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-2.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Sarah Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Developer Productivity</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">10:00 - 10:30</h4>
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Coffee Break</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Room A5</div>
-							<div class="desc">Coffee and cakes lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">10:30 - 11:00</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-3.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Tim Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Progressive Web Apps with React.js</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room A</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">11:00 - 12:00</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-4.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Josh Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Talk Title Lorem Ipsum</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room B</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">12:00 - 13:30</h4>
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Lunch Break</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Room B6</div>
-							<div class="desc">Buffet lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">13:30 - 14:30</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-5.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Ling Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Talk Title Lorem Ipsum</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room C</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">14:30 - 15:30</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-6.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Andy Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Talk Title Lorem Ipsum</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room C</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">15:30 - 16:30</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-7.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Alice Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Talk Title Lorem Ipsum</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room C</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-talk">
-						<div class="meta">
-							<h4 class="time mb-3">16:30 - 17:30</h4>
-							<div class="profile">
-								<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img class="profile-image rounded-circle  mb-2" src="assets/images/speakers/speaker-8.jpg" alt=""></a>
-								<div class="name"><a class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Thomas Doe</a></div>
-							</div><!--//profile-->
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Talk Title Lorem Ipsum</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Conference Room C</div>
-							<div class="desc">Talk's summary goes here. <strong>You can hook up the speaker profile image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">18:00 - 24:00</h4>
-						</div><!--//meta-->
-						<div class="content">
-							<h3 class="title mb-3">Dinner &amp; After-party</h3>
-							<div class="location mb-3"><i class="fas fa-map-marker-alt me-2"></i>Bar Lorem Ipsum</div>
-							<div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur ullamcorper. </div>
-						</div><!--//content-->
-					</div><!--//item-->
-					
-				</div><!--//tab-1-content-->
-				<div class="tab-pane no-timeline" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
-					<h4 class="text-center py-5 text-muted">Day 2 Agenda Coming Soon...</h4>
-				</div><!--//tab-2-content-->
-				<div class="tab-pane no-timeline" id="tab-3-content" role="tabpanel" aria-labelledby="tab-3">
-					<h4 class="text-center py-5 text-muted">Day 3 Agenda Coming Soon...</h4>
-				</div><!--//tab-3-content-->
-				<div class="tab-pane no-timeline" id="tab-4-content" role="tabpanel" aria-labelledby="tab-4">
-					<h4 class="text-center py-5 text-muted">Day 4 Agenda Coming Soon...</h4>
-				</div><!--//tab-4-content-->
-			</div><!--//schedule-tab-content-->
-			<div class="schedule-cta text-center mx-auto"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" class="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Download Schedule</a><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/" class="btn btn-secondary btn-lg d-block d-md-inline-block" target="_blank">Buy Tickets</a></div>
-			</div><!-- END_HIDDEN_SCHEDULE -->
+				<!-- ===== Day 1 - Tuesday August 25, 2026 ===== -->
+				<div class="schedule-day-col">
+					<div class="schedule-day-header">Tuesday<br>August 25</div>
+					<div class="schedule-day-track">Introduction to approaches for Data analysis &amp; visualization (ML, DL, AI)</div>
+
+					<div class="schedule-slot slot-meta">
+						<div class="slot-time">9:30 - 10:30</div>
+						<div class="slot-title-only"><i class="fas fa-clipboard-list slot-icon"></i>Registration &amp; Welcome Coffee</div>
+					</div>
+					<div class="schedule-slot slot-meta">
+						<div class="slot-time">10:30 - 11:00</div>
+						<div class="slot-title-only"><i class="fas fa-bullhorn slot-icon"></i>Opening</div>
+					</div>
+					<div class="schedule-slot slot-visiting-int">
+						<div class="slot-time">11:00 - 13:30</div>
+						<div class="slot-name">Maliheh Izadi</div>
+						<div class="slot-affil">Delft University of Technology</div>
+						<div class="slot-topic">AI systems and generative AI for decision support</div>
+					</div>
+					<div class="schedule-slot slot-break">
+						<div class="slot-time">13:30 - 15:00</div>
+						<div class="slot-title-only"><i class="fas fa-utensils slot-icon"></i>Light Lunch</div>
+					</div>
+					<div class="schedule-slot slot-resident">
+						<div class="slot-time">15:00 - 17:30</div>
+						<div class="slot-name">Simone Scalabrino</div>
+						<div class="slot-affil">University of Molise</div>
+						<div class="slot-topic"><strong>Tutorial / Lab</strong><br>AI agents and autonomous systems in complex contexts</div>
+					</div>
+				</div><!--//day-col-->
+
+				<!-- ===== Day 2 - Wednesday August 26, 2026 ===== -->
+				<div class="schedule-day-col">
+					<div class="schedule-day-header">Wednesday<br>August 26</div>
+					<div class="schedule-day-track">Data Science &amp; AI for Life Sciences</div>
+
+					<div class="schedule-slot slot-visiting-int">
+						<div class="slot-time">9:00 - 11:00</div>
+						<div class="slot-name">Francesco Carli</div>
+						<div class="slot-affil">EMBL-EBI &amp; Open Targets</div>
+						<div class="slot-topic">AI &amp; ML for data-driven drug discovery</div>
+					</div>
+					<div class="schedule-slot slot-break">
+						<div class="slot-time">11:00 - 11:30</div>
+						<div class="slot-title-only"><i class="fas fa-coffee slot-icon"></i>Coffee Break</div>
+					</div>
+					<div class="schedule-slot slot-resident">
+						<div class="slot-time">11:30 - 13:30</div>
+						<div class="slot-name">Gabriella Sferra</div>
+						<div class="slot-affil">University of Molise</div>
+						<div class="slot-topic">ML / AI for biological studies</div>
+					</div>
+					<div class="schedule-slot slot-break">
+						<div class="slot-time">13:30 - 15:00</div>
+						<div class="slot-title-only"><i class="fas fa-utensils slot-icon"></i>Light Lunch</div>
+					</div>
+					<div class="schedule-slot slot-students">
+						<div class="slot-time">15:00 - 17:00</div>
+						<div class="slot-title-only"><i class="fas fa-graduation-cap slot-icon"></i>Students' Talks</div>
+					</div>
+					<div class="schedule-slot slot-social">
+						<div class="slot-time">From 18:00</div>
+						<div class="slot-title-only"><i class="fas fa-glass-cheers slot-icon"></i>Netwalking &amp; Social Aperitif</div>
+					</div>
+				</div><!--//day-col-->
+
+				<!-- ===== Day 3 - Thursday August 27, 2026 ===== -->
+				<div class="schedule-day-col">
+					<div class="schedule-day-header">Thursday<br>August 27</div>
+					<div class="schedule-day-track">Environmental, Socio-Economic &amp; Human Geography Analytics</div>
+
+					<div class="schedule-slot slot-visiting-int">
+						<div class="slot-time">9:00 - 11:00</div>
+						<div class="slot-name">Vítězslav Moudrý</div>
+						<div class="slot-affil">Czech University of Life Sciences Prague</div>
+						<div class="slot-topic">Remote sensing for territory and sustainability</div>
+					</div>
+					<div class="schedule-slot slot-break">
+						<div class="slot-time">11:00 - 11:30</div>
+						<div class="slot-title-only"><i class="fas fa-coffee slot-icon"></i>Coffee Break</div>
+					</div>
+					<div class="schedule-slot slot-visiting-int">
+						<div class="slot-time">11:30 - 13:30</div>
+						<div class="slot-name">Rob Kitchin</div>
+						<div class="slot-affil">National University of Ireland Maynooth</div>
+						<div class="slot-topic">Critical data analytics and urban data ecosystems</div>
+					</div>
+					<div class="schedule-slot slot-break">
+						<div class="slot-time">13:30 - 15:00</div>
+						<div class="slot-title-only"><i class="fas fa-utensils slot-icon"></i>Light Lunch</div>
+					</div>
+					<div class="schedule-slot slot-students">
+						<div class="slot-time">15:00 - 17:00</div>
+						<div class="slot-title-only"><i class="fas fa-graduation-cap slot-icon"></i>Students' Talks</div>
+					</div>
+					<div class="schedule-slot slot-social">
+						<div class="slot-time">From 19:30</div>
+						<div class="slot-title-only"><i class="fas fa-utensils slot-icon"></i>Social Dinner</div>
+					</div>
+				</div><!--//day-col-->
+
+				<!-- ===== Day 4 - Friday August 28, 2026 ===== -->
+				<div class="schedule-day-col">
+					<div class="schedule-day-header">Friday<br>August 28</div>
+					<div class="schedule-day-track">Urban AI, Structural Monitoring &amp; Intelligent Infrastructure</div>
+
+					<div class="schedule-slot slot-visiting-it">
+						<div class="slot-time">9:00 - 11:00</div>
+						<div class="slot-name">Giuseppe Santarsiero</div>
+						<div class="slot-affil">University of Basilicata</div>
+						<div class="slot-topic">Image recognition for automated inspection</div>
+					</div>
+					<div class="schedule-slot slot-break">
+						<div class="slot-time">11:00 - 11:30</div>
+						<div class="slot-title-only"><i class="fas fa-coffee slot-icon"></i>Coffee Break</div>
+					</div>
+					<div class="schedule-slot slot-visiting-it">
+						<div class="slot-time">11:30 - 13:30</div>
+						<div class="slot-name">Francesco Amato</div>
+						<div class="slot-affil">Latitudo 40</div>
+						<div class="slot-topic">Application of AI techniques in satellite image processing</div>
+					</div>
+					<div class="schedule-slot slot-meta">
+						<div class="slot-time">13:30</div>
+						<div class="slot-title-only"><i class="fas fa-flag-checkered slot-icon"></i>Closing &amp; Farewell</div>
+					</div>
+				</div><!--//day-col-->
+
+			</div><!--//schedule-grid-->
+
+			<!-- Legenda categorie -->
+			<div class="schedule-legend" data-aos="fade-up">
+				<span class="legend-item"><span class="legend-swatch" style="background:#fde4cf;"></span>Visiting from international institution</span>
+				<span class="legend-item"><span class="legend-swatch" style="background:#bbf7d0;"></span>Visiting from Italian institution</span>
+				<span class="legend-item"><span class="legend-swatch" style="background:#dcfce7;"></span>Resident faculty (UniMol)</span>
+				<span class="legend-item"><span class="legend-swatch" style="background:#bfdbfe;"></span>Students' Talks</span>
+				<span class="legend-item"><span class="legend-swatch" style="background:#e0f2fe;"></span>Coffee / Lunch</span>
+				<span class="legend-item"><span class="legend-swatch" style="background:#c7d2fe;"></span>Social Activity</span>
+			</div>
 		</div><!--//container-->
 	</section><!--//schedule-section-->
 	
