@@ -918,3 +918,43 @@ a.theme-link:hover {
         align-self: flex-start;
     }
 }
+
+/* ===== Speaker placeholder cards (coerenti col verdino del tema) ===== */
+.speakers-section .card.speaker-placeholder {
+    background-color: #f0fdf4;
+    border: 1px solid #dcfce7;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.speakers-section .card.speaker-placeholder:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(22, 163, 74, 0.12);
+    border-color: var(--brand-green-light);
+}
+.speakers-section .card.speaker-placeholder .card-img-top {
+    background-color: #f0fdf4;
+}
+.speakers-section .card.speaker-placeholder .card-title {
+    color: #6c757d;
+    font-style: italic;
+    font-weight: 500;
+}
+.speakers-section .card.speaker-placeholder .meta {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.speakers-section .card.speaker-placeholder .card-body a {
+    color: var(--brand-green);
+    font-weight: 600;
+    text-decoration: none;
+}
+.speakers-section .card.speaker-placeholder .card-body a:hover {
+    color: var(--brand-green-dark);
+    text-decoration: underline;
+}
+
+/* Modale speaker (placeholder): meta tenue */
+.modal-speaker .meta {
+    color: #94a3b8;
+    font-style: italic;
+}
