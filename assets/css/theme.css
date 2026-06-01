@@ -764,11 +764,11 @@ a.theme-link:hover {
 /* Categorie speaker / sessione (palette coerente col brand verde) */
 .slot-visiting-int { background: #fde4cf; }   /* Visiting Istituto Estero - peach caldo */
 .slot-visiting-it  { background: #bbf7d0; }   /* Visiting Istituto Italiano - verde medio */
-.slot-resident     { background: #dcfce7; }   /* Resident - verde brand light */
-.slot-break        { background: #e0f2fe; }   /* Coffee / Lunch - azzurro tenue */
-.slot-students     { background: #bfdbfe; }   /* Students' Talks - blu */
-.slot-social       { background: #c7d2fe; }   /* Social events - lavanda */
-.slot-meta         { background: #f3f4f6; }   /* Registration / Opening / Closing */
+.slot-resident     { background: #D6EAF8; }   /* Resident - verde brand light */
+.slot-break        { background: #FFF3CD; }   /* Coffee / Lunch - azzurro tenue */
+.slot-students     { background: #FDEBD0; }   /* Students' Talks - blu */
+.slot-social       { background: #E8DAEF; }   /* Social events - lavanda */
+.slot-meta         { background: #D5F5E3; }   /* Registration / Opening / Closing */
 
 /* Legenda categorie sotto la griglia */
 .schedule-legend {
