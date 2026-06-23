@@ -26,6 +26,44 @@
 	<!-- AOS (Animate On Scroll) -->
 	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
+	<style>
+        .payment-instructions-box {
+            background: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 1.25rem 1.5rem;
+        }
+        .payment-instructions-box .accordion-button {
+            background: transparent;
+            font-weight: 600;
+            color: inherit;
+            box-shadow: none;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .payment-instructions-box .accordion-button:not(.collapsed) {
+            color: inherit;
+            background: transparent;
+            box-shadow: none;
+        }
+        .payment-instructions-box .accordion-item {
+            background: transparent;
+        }
+        .payment-details {
+            background: #f8f9fa;
+            border-radius: 4px;
+            font-size: 0.88rem;
+        }
+        .payment-label {
+            font-weight: 600;
+            color: #555;
+        }
+        .payment-iban {
+            font-family: monospace;
+            letter-spacing: 0.04em;
+        }
+    </style>
+
 </head> 
 
 <body>
@@ -597,6 +635,47 @@
             <p class="text-muted" style="font-size:0.9rem;">
                 🍽 The social dinner is not included in the registration fee and is available as an optional add-on ticket (<strong>&euro;50 per person</strong>) for all registration types.
             </p>
+        </div>
+
+        <!-- PAYMENT INSTRUCTIONS -->
+        <div class="single-col-max mx-auto mb-4" data-aos="fade-up" data-aos-delay="380">
+            <div class="payment-instructions-box">
+                <p class="text-center mb-3" style="font-size:0.95rem;">
+                    <i class="fas fa-info-circle me-2"></i>Please read the payment instructions before clicking to register</strong>.
+                </p>
+                <div class="accordion" id="paymentAccordion">
+                    <div class="accordion-item border-0">
+                        <h2 class="accordion-header" id="paymentHeading">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#paymentCollapse" aria-expanded="false" aria-controls="paymentCollapse">
+                                <i class="fas fa-university me-2"></i> Payment Instructions
+                            </button>
+                        </h2>
+                        <div id="paymentCollapse" class="accordion-collapse collapse" aria-labelledby="paymentHeading" data-bs-parent="#paymentAccordion">
+                            <div class="accordion-body">
+                                <p>Registration is confirmed only upon receipt of proof of payment. Please follow these steps:</p>
+                                <ol class="mb-3">
+                                    <li class="mb-2"><strong>Choose your registration tier</strong> from the options above.</li>
+                                    <li class="mb-2"><strong>Transfer the corresponding fee</strong> by bank transfer using the details below.</li>
+                                    <li class="mb-2"><strong>Keep your receipt</strong> — you will need to enter the transaction reference number in the registration form. The organizing committee may also request it for verification.</li>
+                                    <li><strong>Fill in the registration form</strong> by clicking <em>Register Now</em>.</li>
+                                </ol>
+                                <div class="payment-details p-3 mb-0">
+                                    <div class="row g-2">
+                                        <div class="col-12 col-sm-4"><span class="payment-label">Account holder</span></div>
+                                        <div class="col-12 col-sm-8"><span class="payment-value">BIOME SRL – Biodiversity Monitoring and Conservation Enterprise</span></div>
+                                        <div class="col-12 col-sm-4"><span class="payment-label">IBAN</span></div>
+                                        <div class="col-12 col-sm-8"><span class="payment-value payment-iban">IT80 V050 1803 4000 0002 0001 376</span></div>
+                                        <div class="col-12 col-sm-4"><span class="payment-label">Payment reference</span></div>
+                                        <div class="col-12 col-sm-8"><span class="payment-value">BITES 2026 Summer School registration fee – <em>Name Surname</em></span></div>
+                                        <div class="col-12 col-sm-4"><span class="payment-label">Amount</span></div>
+                                        <div class="col-12 col-sm-8"><span class="payment-value">As per your selected registration tier</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="text-center" data-aos="fade-up" data-aos-delay="400">
@@ -1399,5 +1478,4 @@ reproducible science.
 	</script>
 
 </body>
-</html> 
-
+</html>
