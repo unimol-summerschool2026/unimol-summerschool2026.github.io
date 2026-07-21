@@ -27,6 +27,60 @@
 	<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 	<style>
+
+		.hero-announcements {
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+			background: rgba(255, 255, 255, 0.92);
+			border-radius: 8px;
+			padding: 0.9rem 1.25rem;
+			box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+			margin-bottom: 1.5rem;
+			text-align: left;
+		}
+
+		.hero-announcements .announcement-line {
+			color: #1e2327;
+			font-size: 0.9rem;
+			margin: 0;
+		}
+
+		.hero-announcements .announcement-line a {
+			color: #1e2327;
+			text-decoration: underline;
+			font-weight: 600;
+		}
+
+		.hero-announcements .fa-bullhorn,
+		.hero-announcements .fa-star {
+			margin-right: 0.5rem;
+			color: #c1272d; /* o il colore secondario del tuo tema, se ce l'hai a portata di mano */
+		}
+
+		.announcement-bar {
+			background: #1e2327;
+			color: #fff;
+			padding: 0.6rem 1rem;
+			text-align: center;
+			font-size: 0.9rem;
+			margin-top: 72px; /* spazio per l'header fixed-top, regola se serve */
+		}
+
+		.announcement-bar a {
+			color: #fff;
+			text-decoration: underline;
+		}
+
+		.announcement-bar .fa-bullhorn,
+		.announcement-bar .fa-star {
+			margin-right: 0.4rem;
+		}
+
+		.announcement-bar .announcement-line + .announcement-line {
+			margin-top: 0.25rem;
+		}
+
         .payment-instructions-box {
             background: #fff;
             border: 1px solid #dee2e6;
@@ -96,6 +150,11 @@
         </div>
     </div>
 	</header>
+	</header>
+	<!-- <div class="announcement-bar">
+  		<div class="announcement-line"><i class="fas fa-bullhorn"></i>Early Registration deadline extended to <strong>31 July</strong> — see <a href="#registration-section">Registration</a> for details.</div>
+  		<div class="announcement-line"><i class="fas fa-star"></i>New: present your research in the <strong>Poster Session</strong> - see <a href="#schedule-section">Schedule</a>.</div>
+	</div> -->
 	
 	<div id="hero-block" class="hero-block">
 		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
@@ -119,6 +178,11 @@
 					<div class="hero-intro mb-4">A four-day immersive program organized by the<br>Department of Biosciences and Territory, University of Molise.</div>
 					<!--<div class="hero-cta"><a class="btn btn-primary btn-lg register-link" href="#" target="_blank">Register Now</a></div>-->
 					
+					<div class="hero-announcements">
+					<p class="announcement-line"><i class="fas fa-bullhorn"></i>Early Registration deadline extended to <strong>31 July</strong> — see <a href="#registration-section">Registration</a>.</p>
+					<p class="announcement-line"><i class="fas fa-star"></i>New: present your research in the <strong>Poster Session</strong> — see <a href="#schedule-section">Schedule</a>.</p>
+					</div>
+<!--<div class="hero-cta"><a class="btn btn-primary btn-lg register-link" href="#" target="_blank">Register Now</a></div>-->
 				</div>
 			</div>
 
