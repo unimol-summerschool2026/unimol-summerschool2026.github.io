@@ -448,7 +448,7 @@
 					</div>
 					<div class="schedule-slot slot-students">
 						<div class="slot-time">15:00 - 17:00</div>
-						<div class="slot-title-only"><i class="fas fa-graduation-cap slot-icon"></i>Students' Talks</div>
+						<div class="slot-title-only"><i class="fas fa-graduation-cap slot-icon"></i><a href="#modal-students-talks" data-bs-toggle="modal">Students' Talks</a></div>
 					</div>
 					<div class="schedule-slot slot-social">
 						<div class="slot-time">From 18:00</div>
@@ -483,7 +483,7 @@
 					</div>
 					<div class="schedule-slot slot-students">
 						<div class="slot-time">15:00 - 17:00</div>
-						<div class="slot-title-only"><i class="fas fa-graduation-cap slot-icon"></i>Poster Session</div>
+						<div class="slot-title-only"><i class="fas fa-graduation-cap slot-icon"></i><a href="#modal-poster-session" data-bs-toggle="modal" data-bs-target="#modal-poster-session" class="talk-link">Poster Session</a></div>
 					</div>
 					<div class="schedule-slot slot-social">
 						<div class="slot-time">From 19:30</div>
@@ -1475,34 +1475,106 @@ During the presentation, it will be shown how the advanced use of satellite data
         			</div>
        				<div class="desc p-4 p-lg-5">
 						<h5>Abstract</h5>
-          				<p>Software development has become an essential, yet time-consuming, skill across
-nearly all scientific disciplines. The recent explosion of Large Language
-Models (LLMs) is fundamentally changing how researchers write, debug, and
-maintain code, offering unprecedented boosts to productivity. However,
-integrating these tools into research workflows requires more than just knowing
-how to prompt.
-
-This workshop provides a pragmatic, critical introduction to AI-assisted
-software development designed for a multidisciplinary academic audience. In
-the first part, we will explore the practical applications of LLMs for daily
-coding tasks—such as boilerplate generation, translation between languages,
-and debugging. Crucially, we will also examine the reality of their
-limitations and risks.
-In the second part, we will move beyond standard chat interfaces to introduce
-the frontier of Agentic AI. Participants will learn how AI agents differ from
-traditional LLMs by possessing the ability to plan, iterate, use external
-tools, and autonomously execute complex software engineering tasks.
-
-By the end of this workshop, attendees will possess a grounded understanding
-of current AI coding tools. They will leave equipped with actionable
-strategies to leverage both LLMs and agentic systems to accelerate their
-research, while maintaining the critical oversight necessary for rigorous,
-reproducible science.
-</p>
+          				<p>Software development has become an essential, yet time-consuming, skill across nearly all scientific disciplines. The recent explosion of Large Language Models (LLMs) is fundamentally changing how researchers write, debug, and maintain code, offering unprecedented boosts to productivity. However, integrating these tools into research workflows requires more than just knowing how to prompt. This workshop provides a pragmatic, critical introduction to AI-assisted software development designed for a multidisciplinary academic audience. In the first part, we will explore the practical applications of LLMs for daily coding tasks—such as boilerplate generation, translation between languages, and debugging. Crucially, we will also examine the reality of their limitations and risks. In the second part, we will move beyond standard chat interfaces to introduce the frontier of Agentic AI. Participants will learn how AI agents differ from traditional LLMs by possessing the ability to plan, iterate, use external tools, and autonomously execute complex software engineering tasks.
+						By the end of this workshop, attendees will possess a grounded understanding of current AI coding tools. They will leave equipped with actionable strategies to leverage both LLMs and agentic systems to accelerate their research, while maintaining the critical oversight necessary for rigorous, reproducible science.</p>
         			</div>
       			</div>
     		</div>
   		</div>
+	</div>
+
+	<!-- Modal: Students' Talks -->
+	<div class="modal modal-speaker" id="modal-students-talks" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title sr-only">Students' Talks</h4>
+		</div>
+		<div class="modal-body p-0">
+			<div class="theme-bg-light p-5">
+			<div class="row">
+				<div class="col text-center text-md-start mx-auto">
+				<h2 class="name mb-1">Students' Talks</h2>
+				<div class="meta mt-1"><i class="far fa-calendar-alt me-1"></i>Wednesday, August 26 · 15:00–17:00 · 30 min each, including Q&A</div>
+				</div>
+			</div>
+			</div>
+			<div class="desc p-4 p-lg-5">
+				<h5>Program</h5>
+			<ul class="list-unstyled">
+				<li class="mb-3">
+				<span class="text-muted">15:00–15:30</span><br>
+				<strong>Christian Mancini</strong><br>
+				<em>GraphVAEBM: Graph Generation Combining Variational Autoencoders and Energy-Based Models</em>
+				</li>
+				<li class="mb-3">
+				<span class="text-muted">15:30–16:00</span><br>
+				<strong>Daniele Pensabene</strong><br>
+				<em>Targeting p75NTR to counteract Parkinsonian features: evidence from neuronal and astrocytic cell models</em>
+				</li>
+				<li class="mb-3">
+				<span class="text-muted">16:00–16:30</span><br>
+				<strong>Chiara Cornacchione</strong><br>
+				<em>Anticipating corporate distress: an interpretable XGBoost early-warning model</em>
+				</li>
+				<li class="mb-3">
+				<span class="text-muted">16:30–17:00</span><br>
+				<strong>Agapito Emanuele Santangelo</strong><br>
+				<em>Detecting Criminal Infiltration in Italian Municipalities using Social Media</em>
+				</li>
+			</ul>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- Modal: Poster Session -->
+	<div class="modal modal-speaker" id="modal-poster-session" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title sr-only">Poster Session</h4>
+			</div>
+			<div class="modal-body p-0">
+				<div class="theme-bg-light p-5">
+					<div class="row">
+						<div class="col text-center text-md-start mx-auto">
+						<h2 class="name mb-1">Poster Session</h2>
+						<div class="meta mt-1"><i class="far fa-calendar-alt me-1"></i>Thursday, August 27 · 15:00–17:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="desc p-4 p-lg-5">
+					<h5>Posters</h5>
+					<ul class="list-unstyled">
+						<li class="mb-3">
+						<strong>Chiara Pezzuto</strong><br>
+						<em>Multi-omics analysis of poplar vascular cambium responses to heat and drought</em>
+						</li>
+						<li class="mb-3">
+						<strong>Martina Falcione, Anna Gillini, Daniele Fantozzi, and Alessandra Renella</strong><br>
+						<em>Monitoring root systems and their abiotic and biotic interactions: novel non-invasive approaches for exploring urban biodiversity</em>
+						</li>
+						<li class="mb-3">
+						<strong>Roberto Milanese</strong><br>
+						<em>Human-Agent versus Human Pull Requests: A Testing-Focused Characterization and Comparison</em>
+						</li>
+						<li class="mb-3">
+						<strong>Antonio Vitale</strong><br>
+						<span class="text-muted">TBA</span>
+						</li>
+						<li class="mb-3">
+						<strong>Antonio Di Biase</strong><br>
+						<span class="text-muted">TBA</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 	</div>
 	
 	<!-- Javascript -->
